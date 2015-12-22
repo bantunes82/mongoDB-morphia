@@ -1,0 +1,20 @@
+1-)Requirements to run the project
+-Java SE 1.8
+-Maven 3
+-Mongodb started at the default port
+
+2-)To run the program:
+mvn clean package
+
+3-)To know more information about the project and to run the Unit Test and Coverage Test, please run the command below:
+mvn clean site
+
+To know more information about the project open the file "index.html" located in "mongoDB-morphia/target/site"
+and then click in "Project Summary".
+To see the result of the Unit Test open the file "index.html" located in "mongoDB-morphia/target/site"
+and then click in "Project Reports" and then click in "Surefire Report".
+To see the result of the Coverage Test open the file "index.html" located in "mongoDB-morphia/target/site"
+and then click in "Project Reports" and then click in "Cobertura Test Coverage".
+
+4-)To import the project to the Eclipse IDE, run the goal bellow in the folder "mongoDB-morphia"
+mvn eclipse:clean eclipse:eclipse
